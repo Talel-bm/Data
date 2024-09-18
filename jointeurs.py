@@ -1,4 +1,3 @@
-# DECORATORS POUR TROUBLESHOOTING
 import pandas as pd
 #---------------------------------------------------------------------------------------------------------
 # JOINTEUR COUT
