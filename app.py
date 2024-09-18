@@ -26,6 +26,7 @@ from sklearn.linear_model import SGDClassifier, Perceptron, RidgeClassifier, Rid
 from sklearn.dummy import DummyClassifier, DummyRegressor
 import shap
 import pickle
+
 def st_shap(plot, height=None):
     shap_html = f"<head>{shap.getjs()}</head><body>{plot.html()}</body>"
     st.components.v1.html(shap_html, height=height)
@@ -47,9 +48,6 @@ model_mapping = {
     "SVR": SVR,
     "KNeighborsClassifier": KNeighborsClassifier,
     "KNeighborsRegressor": KNeighborsRegressor,
-    "GaussianNB": GaussianNB,
-    "MultinomialNB": MultinomialNB,
-    "BernoulliNB": BernoulliNB,
     "AdaBoostClassifier": AdaBoostClassifier,
     "AdaBoostRegressor": AdaBoostRegressor,
     "MLPClassifier": MLPClassifier,
@@ -57,11 +55,6 @@ model_mapping = {
     "GaussianProcessRegressor": GaussianProcessRegressor,
     "GaussianProcessClassifier": GaussianProcessClassifier,
     "SGDClassifier": SGDClassifier,
-    "Perceptron": Perceptron,
-    "RidgeClassifier": RidgeClassifier,
-    "RidgeClassifierCV": RidgeClassifierCV,
-    "DummyClassifier": DummyClassifier,
-    "DummyRegressor": DummyRegressor,
     "NuSVC": NuSVC,
     "NuSVR": NuSVR,
     "OneClassSVM": OneClassSVM,
