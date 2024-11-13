@@ -15,7 +15,7 @@ This project provides a Streamlit-based web application for training machine lea
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/auto-insurance-ml-trainer.git
+   git clone https://https://github.com/Talel-bm/ML-Trainer.git
    cd auto-insurance-ml-trainer
    ```
 
