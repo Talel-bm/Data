@@ -16,7 +16,7 @@ This project provides a Streamlit-based web application for training machine lea
 1. Clone this repository:
    ```
    git clone https://https://github.com/Talel-bm/ML-Trainer.git
-   cd auto-insurance-ml-trainer
+   cd ML-trainer
    ```
 
 2. Create a virtual environment and activate it:
